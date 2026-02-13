@@ -9,7 +9,7 @@ const Navbar = () => {
     const handleScroll = () => {
       const winScroll = window.scrollY;
       // Ultra-slow transition as requested
-      const opacity = Math.min(winScroll / 6000, 1); 
+      const opacity = Math.min(winScroll / 5000, 1); 
       setScrollOpacity(opacity);
     };
     window.addEventListener('scroll', handleScroll);
@@ -36,7 +36,7 @@ const Navbar = () => {
         <div className="nav-logo">
           BM
           <span 
-            className="dot" 
+            className="dot-nav" 
             style={{ 
               // Logic: Starts pink (#C11C84), gradually becomes white (#ffffff)
               color: scrollOpacity > 0.3 ? '#ffffff' : '#C11C84',

@@ -28,7 +28,7 @@
   letter-spacing: -0.5px;
 }
 
-.dot {
+.dot-nav {
   display: inline-block;
   background: transparent !important; /* Removes unwanted oval bg */
   color: #C11C84;
@@ -269,6 +269,7 @@
 /***** About *************************/
 .about-section {
   padding: 60px 0 40px; /* Reduced top and bottom padding */
+  background-color: #f1f1f1; 
 }
 
 .section-container {
@@ -522,7 +523,7 @@
 
 /*************Services******************/
 .services-section {
-  background-color: #f1f1f1; /* Applied to this section only */
+  background-color: #f1f1f1; 
   padding: 80px 0;
   width: 100%;
   /* Optional: adds a subtle top/bottom border to define the section transition */
@@ -825,7 +826,7 @@
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  border: 1px solid #e5e7eb;
+  border: 1px solid #C11C84;;
   background: white;
   display: flex;
   align-items: center;
@@ -839,6 +840,7 @@
 .nav-circle-btn:hover {
   border-color: #C11C84;
   color: #C11C84;
+  background: #C11C84;
 }
 
 .pagination-dots {
@@ -1085,7 +1087,24 @@
 /********************** CONTACT & FOOTER SECTION *************************/
 .contact-footer-section {
   padding: 100px 0 40px 0;
-  background-color: #ffffff;
+  background-color: black;
+}
+.section-title-white {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem; /* Tightened gap after title */
+  position: relative;
+  display: inline-block;
+  color: white;
+}
+.section-title-white::after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  width: 35px;
+  height: 3px;
+  background-color: #C11C84;
 }
 
 .contact-grid {
@@ -1098,7 +1117,7 @@
 /* Left Side Styling */
 .contact-intro {
   font-size: 1.1rem;
-  color: #64748b;
+  color: white;
   line-height: 1.6;
   margin-bottom: 30px;
 }
@@ -1123,7 +1142,7 @@
 
 .method-item a {
   text-decoration: none;
-  color: #1e293b;
+  color: white;
   font-weight: 500;
   transition: color 0.3s;
 }
@@ -1139,7 +1158,7 @@
 
 .social-links-contact i {
   font-size: 1.4rem;
-  color: #1e293b;
+  color: white;
   transition: color 0.3s;
 }
 
@@ -1194,7 +1213,7 @@
 
 /************************ Footer Bottom Bar **************************/
 .footer-bottom {
-  border-top: 1px solid #f1f5f9;
+  border-top: 1px solid #a0176d;
   padding-top: 30px;
   display: flex;
   justify-content: space-between;

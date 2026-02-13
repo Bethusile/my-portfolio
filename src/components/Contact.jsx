@@ -11,7 +11,7 @@ const Contact = ({ id }) => {
           
           {/* Left Side: Contact Info */}
           <div className="contact-info">
-            <h2 className="sub-header-pink">Get in Touch</h2>
+            <h2 className="section-title-white">Get in Touch</h2>
             <p className="contact-intro">
               Have a project in mind or want to discuss an opportunity?<br />
               I'd love to hear from you.
@@ -58,7 +58,7 @@ const Contact = ({ id }) => {
             <a href="https://github.com/Bethusile" target="_blank" rel="noreferrer">
               <i className="fab fa-github"></i>
             </a>
-            <a href="https://linkedin.com/in/bethusile" target="_blank" rel="noreferrer">
+            <a href="https://www.linkedin.com/in/bethusile-mafumana" target="_blank" rel="noreferrer">
               <i className="fab fa-linkedin-in"></i>
             </a>
           </div>

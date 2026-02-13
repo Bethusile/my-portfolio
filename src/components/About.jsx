@@ -30,7 +30,7 @@ const About = ({ id }) => {
             </span>
             <div className="info-content">
               <p className="info-label">Education</p>
-              <p className="info-value">BSc Accounting & Computer Science</p>
+              <p className="info-value">BCom Honors Computer Science & Information Systems, BCom Accounting</p>
             </div>
           </div>
         </div>

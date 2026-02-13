@@ -25,8 +25,10 @@ const Projects = ({ id }) => {
             { name: "React", icon: "fab fa-react" },
             { name: "Node.js", icon: "fab fa-node-js" },
             { name: "MindAR", icon: "fas fa-eye" },
+            { name: "Expressjs", icon: "fas fa-server" },
             { name: "PostgreSQL", icon: "fas fa-database" },
-            { name: "TypeScript", icon: "fas fa-code" }
+            { name: "TypeScript", icon: "fas fa-code" },
+            { name: "MUI", icon: "fas fa-code" }
         ],
         image: marketingImg, 
         link: "https://github.com/Bethusile/Marketing-Campaign-Manager" 
@@ -38,7 +40,9 @@ const Projects = ({ id }) => {
         tech: [
             { name: "Node.js", icon: "fab fa-node-js" },
             { name: "PostgreSQL", icon: "fas fa-database" },
-            { name: "Express", icon: "fas fa-server" }
+            { name: "Expressjs", icon: "fas fa-server" },
+            { name: "MUI", icon: "fas fa-code" },
+            { name: "React", icon: "fab fa-react" }
         ],
         image: tuckshopImg, 
         link: "https://github.com/Bethusile/TuckShop" 
@@ -77,8 +81,9 @@ const Projects = ({ id }) => {
         role: "Full Stack Developer",
         tech: [
             { name: "C#", icon: "fas fa-terminal" },
-            { name: "ASP.NET Core", icon: "fas fa-globe" },
-            { name: "Azure", icon: "fab fa-microsoft" }
+            { name: "ASP.Net Core", icon: "fas fa-globe" },
+            { name: "Azure", icon: "fab fa-microsoft" },
+            { name: "SQL Server", icon: "fas fa-database" }
         ],
         image: lostFoundImg, 
         link: "https://github.com/Thango25/ProjectBB" 
@@ -89,8 +94,9 @@ const Projects = ({ id }) => {
         role: "Lead Developer",
         tech: [
             { name: "MVC", icon: "fas fa-project-diagram" },
-            { name: "EF Core", icon: "fas fa-link" },
-            { name: "SQL Server", icon: "fas fa-database" }
+            { name: "ASP.Net", icon: "fas fa-link" },
+            { name: "SQL Server", icon: "fas fa-database" },
+            { name: "Azure", icon: "fab fa-microsoft" }
         ],
         image: ab1Img, 
         link: "https://github.com/Bethusile/Afro-Belle-E-Commerce" 

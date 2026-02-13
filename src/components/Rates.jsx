@@ -7,7 +7,7 @@ const Rates = ({ id }) => {
       <div className="section-container">
         
         {/* Main Section Title */}
-        <h2 className="sub-header-pink">Pricing</h2>
+        <h2 className="section-title">Pricing</h2>
 
         {/* Hourly Rate Card */}
         <div className="hourly-rate-container">
