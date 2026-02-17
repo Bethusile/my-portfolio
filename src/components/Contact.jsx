@@ -32,7 +32,7 @@ const Contact = ({ id }) => {
               <a href="https://github.com/Bethusile" target="_blank" rel="noreferrer">
                 <i className="fab fa-github"></i>
               </a>
-              <a href="https://linkedin.com/in/bethusile" target="_blank" rel="noreferrer">
+              <a href="https://www.linkedin.com/in/bethusile-mafumana/" target="_blank" rel="noreferrer">
                 <i className="fab fa-linkedin-in"></i>
               </a>
             </div>
