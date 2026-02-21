@@ -20,7 +20,7 @@ const Contact = ({ id }) => {
             <div className="contact-methods">
               <div className="method-item">
                 <i className="far fa-envelope"></i>
-                <a href="mailto:info@bethusile.co.za">info@bethusile.co.za</a>
+                <a href="mailto:hello@bethusile.co.za">hello@bethusile.co.za</a>
               </div>
               <div className="method-item">
                 <i className="fas fa-phone-alt"></i>
