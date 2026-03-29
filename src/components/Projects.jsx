@@ -6,7 +6,7 @@ import fkImg from '../assets/images/fk-pic.png';
 import marketingImg from '../assets/images/bbd-marketing.png';
 import tuckshopImg from '../assets/images/tuckshop3.png';
 import lasertagImg from '../assets/images/lasertag.png';
-import shellhubImg from '../assets/images/shellhub.png';
+import shellhubImg from '../assets/images/shellhub2.png';
 
 const Projects = ({ id }) => {
   const [activeTab, setActiveTab] = useState('Custom Web Application');
