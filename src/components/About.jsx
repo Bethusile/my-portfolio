@@ -69,7 +69,7 @@ const About = ({ id }) => {
               <i className="far fa-clock card-icon"></i>
               <h4>Working Hours</h4>
             </div>
-            <p>Monday – Friday: 8:00 AM – 5:00 PM</p>
+            <p>Monday - Friday: 8:00 AM - 5:00 PM</p>
             <p className="sub-text">Weekends: Available on request</p>
           </div>
           <div className="availability-card">
@@ -111,7 +111,7 @@ const About = ({ id }) => {
             <i className="fas fa-map-marker-alt location-icon"></i>
             <div className="location-text">
               <h5>Based In</h5>
-              <p>Gqeberha — willing to relocate for the right role.</p>
+              <p>Gqeberha - willing to relocate for the right role.</p>
             </div>
           </div>
         </div>
