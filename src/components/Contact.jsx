@@ -11,7 +11,7 @@ const Contact = ({ id }) => {
     e.preventDefault();
 
     emailjs.sendForm(
-      'service_wsztx7a',
+      'service_jmhnwab',
       'template_h79f1u1',
       form.current,
       '7-JTNGWN9vtk2EMD6'
@@ -60,7 +60,7 @@ const Contact = ({ id }) => {
             <div className="contact-methods">
               <div className="method-item">
                 <i className="far fa-envelope"></i>
-                <a href="mailto:hello@bethusile.co.za">hello@bethusile.co.za</a>
+                <a href="mailto:hello@betana.co.za">hello@betana.co.za</a>
               </div>
               <div className="method-item">
                 <i className="fas fa-phone-alt"></i>
