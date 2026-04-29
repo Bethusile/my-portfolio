@@ -16,7 +16,7 @@ const Hero = () => {
         </h1>
         <br/>
         <p>
-          I'm Bethusile, a freelance developer crafting responsive websites and software solutions
+          Crafting responsive websites and software solutions
           that help businesses grow online.
         </p>
         <br/><br/>
@@ -25,7 +25,7 @@ const Hero = () => {
             View Projects
           </a>
           <a href="#contact" className="btn btn-hire">
-            Hire Me
+            Contact Us
           </a>
         </div>
         <br/><br/><br/>

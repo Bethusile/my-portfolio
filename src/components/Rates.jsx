@@ -13,7 +13,7 @@ const Rates = ({ id }) => {
         <div className="hourly-rate-container">
           <div className="hourly-card">
             <p className="rate-label">Hourly Rate</p>
-            <h3 className="rate-value">R200 - R400 <span>/ hour</span></h3>
+            <h3 className="rate-value">R150 - R200 <span>/ hour</span></h3>
             <p className="rate-note">Rate depends on scope and complexity of the project.</p>
           </div>
         </div>

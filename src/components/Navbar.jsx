@@ -34,7 +34,7 @@ const Navbar = () => {
     >
       <div className="nav-container">
         <div className="nav-logo">
-          BM
+          Betana
           <span 
             className="dot-nav" 
             style={{ 
